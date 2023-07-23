@@ -5,9 +5,18 @@
         <meta name="viewport" content="width-device-width">
         <title>TIM의 인사기록장</title>
         <link rel="stylesheet" href="style.css">
+
     </head>
     <body>
-        <h1>TIM의 인사기록장</h1>
+        <input type="button" value="다크모드" onclick="
+        document.querySelector('body').style.backgroundColor='black';
+        document.querySelector('body').style.color='white';
+        ">
+        <input type="button" value="주간모드" onclick="
+        document.querySelector('body').style.backgroundColor='white';
+        document.querySelector('body').style.color='black';
+        ">
+        <h1><a href="index.html"></a>TIM의 인사기록장</h1>
         <div id="grid">
         <div id="list">
         <ol>
